@@ -3,6 +3,7 @@ body {
     /*Width set to 1000px. (It's not specified anywhere that I should use a certain witdh)*/
     width: 1000px;
     font-family: "Lato", sans-serif;
+    margin: auto;
 }
 
 /*Top of the page*/
