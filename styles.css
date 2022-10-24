@@ -1,0 +1,165 @@
+body {
+    background-color: rgba(130, 255, 255, 0.2);
+    /*Width set to 1000px. (It's not specified anywhere that I should use a certain witdh)*/
+    width: 1000px;
+    font-family: "Lato", sans-serif;
+}
+
+/*Top of the page*/
+.banner {
+    display: grid;
+    grid-template-columns: 13px 270px 364px 300px 13px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+
+.blueBarTopLeft {
+    grid-row-start: 1;
+    grid-row-end: 4;
+    background-color: rgb(82, 82, 220);
+}
+.firstName {
+    font-size: 60px;
+    color: rgb(0, 50.2, 50.2);
+    grid-column-start: 2;
+    padding-left: 5px;
+    font-weight: bold;
+}
+.familyName {
+    font-size: 60px;
+    color: rgb(15, 0, 170);
+    grid-column-start: 3;
+    font-weight: bold;
+}
+.photo {
+    width: 220px;
+    height: 220px;
+    border-radius: 125px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: top;
+    border: 8px solid rgb(82, 82, 220);
+}
+.photoPlace{
+    grid-column-start: 4;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+.blueBarTopRight{
+    grid-column-start: 5;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    background-color: rgb(82, 82, 150);
+    height: 120px;
+}
+.infoGrid{
+    display: grid;
+    grid-template-columns: 30px auto;
+    grid-column-start: 2;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+.infoText{
+    padding-top: 10px;
+    padding-left: 30px;
+}
+.infoImages{
+    width: 35px;
+    height: 35px;
+    margin: 2px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: top;
+}
+/*Main content*/
+.rest{
+    display: grid;
+    grid-template-columns: 330px 20px 3px 20px auto;
+    height: 800px;
+}
+
+.workTitle{
+    grid-column-start: 1;
+    grid-column-end: 6;
+    width: 380px;
+    height: 22px;
+    margin: auto;
+    padding: 6px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgb(82, 82, 220);
+    color:rgb(255, 255, 255);
+    font-size:larger;
+}
+.blueBarMid{
+    grid-column-start: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background-color: rgb(110, 110, 150);
+}
+
+/*About section*/
+.aboutSection{
+    display: grid;
+    grid-column-start: 1;
+}
+
+.aboutTitle{
+    font-weight: bold;
+    color:rgb(0, 80, 120);
+    padding-left: 20px;
+    font-size: larger;
+}
+.aboutText{
+    text-align: justify;
+    color:rgb(0, 80, 120);
+    padding-left: 20px;
+    padding-bottom: 25px;
+}
+.aboutColorSubTitle{
+    width: 300px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: rgb(82, 82, 150);
+    color:rgb(255, 255, 255);
+    padding-left: 10px;
+    font-size: larger;
+}
+.compSubTitles{
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+/*Experience section*/
+.experienceSection{
+    display: grid;
+    grid-column-start: 5;
+    padding-top: 10px;
+    max-width: 520px;
+    text-align: justify;
+}
+
+.expColorSubTitle{
+    width: 360px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: rgb(82, 82, 150);
+    color:rgb(255, 255, 255);
+    padding-left: 10px;
+    font-size: larger;
+}
+.expSubTitles{
+    font-weight: bold;
+}
+.expDates{
+    color:rgb(0, 80, 120);
+    font-weight: bold;
+}
+.formDates{
+    color:rgb(169, 169, 169);
+    font-weight: bold;
+}
